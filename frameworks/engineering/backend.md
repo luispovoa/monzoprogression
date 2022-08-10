@@ -290,4 +290,3 @@ Your manager will work with you on this. None of it will happen mysteriously beh
 ### Give us your feedback!
 This is only the first version of our framework and we really want your feedback.
 
-We're particularly keen to add as many examples to the behaviours as possible, to further clarify them.
