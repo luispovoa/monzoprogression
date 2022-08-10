@@ -62,18 +62,19 @@ The following YAML data can be found in every file:
 path:         ~~ a path goes here, eg "/frameworks/operations/ops-leadership" ~~
 title:        ~~ the page title goes here, eg "🎯 Ops Leadership Framework" ~~
 sidebarTitle: ~~ this is the title in the sidebar "🎯 Leadership" ~~
-sidebarGroup: ~~ this is the subheading/group. eg "operations", or null (for nothing) ~~
+sidebarGroup: ~~ this is the subheading/group. eg "operations" or nothing ~~
 yaml:         ~~ indicates if the framework is mainly yaml (true) or markdown (false) ~~
-levels:       ~~ the amount of levels you want to be shown if the file is yaml, eg 6 or null (for nothing) ~~
+levels:       ~~ the amount of levels you want to be shown if the file is yaml, eg 6 or nothing ~~
+homepage:     ~~ card-based frameworks only! whether you want a homepage to be shown, eg true, false, or nothing if irrelevant ~~
 ```
 
 If the framework is in YAML format, underneath the compulsory data, you will find something like this:
 
 ``` yaml
+homepage: true
 topics:
   - name: "communication and teamwork"
     title: "💬 Communication and Teamwork"
-    description: "Description goes here"
     content:
       - level: 1
         criteria:
@@ -85,14 +86,19 @@ topics:
           - "Gives clear concise updates in cross-team meetings on material which is relevant for the teams"
   - name: "conduct"
     title:
-    description:
     content:
       - level: 1
         criteria:
           - "Follows policies and procedures applicable to role. Completes training."
           - "Accepts feedback graciously and acts on it. Gives feedback when requested"
           - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group"
-
+        exampleCriteria:
+          -  criteria: "A criteria with an example point goes here"
+             examples:
+               - "The example goes here"
+               - "Another example may go here"
+---
+### 🏠 Welcome to the Backend engineering home page
 ```
 
 If a topic's name matches the name of a topic in the generic framework, the generic framework criteria will be loaded as well as your framework criteria, and the title + description will be loaded from the generic framework.
@@ -100,6 +106,7 @@ If you have a custom topic, you must define a title and description.
 You can see this in the example above, with both the custom "communication and teamwork" topic and the generic "conduct" topic.
 
 For each topic, you must define its contents. This is made up of an object (starts with a bullet point) which contains the criteria, and the level it is associated with.
+You can also add examples, by putting them in the `exampleCriteria` object, defining the actual criteria point, and any examples it links to.
 
 ---
 

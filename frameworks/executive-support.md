@@ -1,14 +1,14 @@
 ---
-path: "/frameworks/executive-support"
+path: "/executive-support"
 title: "👭 Executive Support Framework"
 sidebarTitle: "👭 Executive Support"
-sidebarGroup: null
+sidebarGroup:
 yaml: true
 levels: 5
+homepage: false
 topics:
   - name: "communication"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -27,7 +27,6 @@ topics:
           - "Gives external talks on role of EAs at Monzo, and how this creates value and contributes to Monzo's overall success."
   - name: "impact"
     title:
-    description:
     content:
       - level: 2
         criteria:
@@ -44,15 +43,21 @@ topics:
           - "Owns projects within exec's responsible area, leveraging stakeholders to deliver results."
       - level: 5
         criteria:
-          - "Key contributor to successfully achieving company goals reelvant to your executive (where without *your* input, it's unlikely those goals would have been achieved)"
-          - "Owns projects that imact Monzo as a whole, leveraging stakeholders to deliver results."
+          - "Key contributor to successfully achieving company goals relevant to your executive (where without *your* input, it's unlikely those goals would have been achieved)"
+          - "Owns projects that impact Monzo as a whole, leveraging stakeholders to deliver results."
   - name: "knowledge"
     title:
-    description:
     content:
       - level: 1
-        criteria:
-          - "Learning how to use all Monzo's internal tools (gsuite, slack, lattice, peakon, confluence, notion, JIRA)"
+        exampleCriteria:
+          - criteria: "Learning how to use all Monzo's internal tools"
+            examples:
+              - "GSuite"
+              - "Slack"
+              - "Lattice"
+              - "Peakon"
+              - "Notion"
+              - "JIRA"
       - level: 2
         criteria:
           - "Working knowledge of all Monzo tools"
@@ -75,7 +80,6 @@ topics:
           - "Strong understanding of all executives responsibilities at Monzo, with ability to adapt to support any executive to high standard at short notice."
   - name: "teamwork"
     title:
-    description:
     content:
       - level: 3
         criteria:

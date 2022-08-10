@@ -1,14 +1,14 @@
 ---
-path: "/frameworks/operations/ops-individual-contributor"
+path: "/operations/ops-individual-contributor"
 title: "🙋‍♀️️️ Ops Individual Contributor Framework"
 sidebarTitle: "🙋‍♀️ Individual Contributor"
 sidebarGroup: "operations"
 yaml: true
 levels: 5
+homepage: false
 topics:
   - name: "communication and teamwork"
     title: "💬 Communication and Teamwork"
-    description: "Description goes here"
     content:
       - level: 1
         criteria:
@@ -40,7 +40,6 @@ topics:
           - "Confident, clear communicator at All Hands etc. Simplifies messages for teams."
   - name: "conduct"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -67,7 +66,6 @@ topics:
           - "Leads by example and proves their area is managing risk and compliance within appetite."
   - name: "impact"
     title:
-    description:
     content:
       - level: 1
         criteria:
@@ -105,7 +103,6 @@ topics:
           - "Retains accountability until problem fully resolved."
   - name: "knowledge"
     title:
-    description:
     content:
       - level: 1
         criteria:
